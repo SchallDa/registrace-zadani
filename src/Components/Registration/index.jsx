@@ -11,7 +11,6 @@ const Registration = () => {
   const extractUserNameFormEmail = (mail) => {
     if (mail.includes("@")) {
       let splitedString = mail.split("@");
-      console.log(splitedString);
       return splitedString[0];
     }
     return "";
@@ -70,5 +69,4 @@ const Registration = () => {
   );
 };
 
-// console.log(user);
 export default Registration;
